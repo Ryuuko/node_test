@@ -1,0 +1,24 @@
+{
+  "name": "node_test",
+  "version": "1.0.0",
+  "description": "a test directory for git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuuko/node_test.git"
+  },
+  "author": "Ryuuko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ryuuko/node_test/issues"
+  },
+  "homepage": "https://github.com/Ryuuko/node_test#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
